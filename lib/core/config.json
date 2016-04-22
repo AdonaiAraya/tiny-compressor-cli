@@ -1,0 +1,4 @@
+{
+    "API_ENDPOINT": "api.tinify.com",
+    "AUTHENTICATION_PREFIX": "api:"
+}
