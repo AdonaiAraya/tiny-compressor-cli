@@ -1,4 +1,5 @@
 {
     "API_ENDPOINT": "api.tinify.com",
-    "AUTHENTICATION_PREFIX": "api:"
+    "AUTHENTICATION_PREFIX": "api:",
+    "COMPRESS_FOLDER_NAME": "compressimages"
 }
