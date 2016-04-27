@@ -36,11 +36,15 @@ First you need to get an API key from tinypng.com.
 
 Request help about the application.
 
+Example:
+
     tiny-compressor-cli -h
 
 ####Version
 
 Current application version.
+
+Example:
 
     tiny-compressor-cli -v
 
@@ -51,7 +55,7 @@ Compress a single image or all images in a directory.
 + `-p` or `--path` Path to the image or the directory
 + `-k` or `--key` API key
 
-
+Example:
 
     tiny-compressor-cli -p [path/to/your/folder] -k [API_KEY]
 
@@ -61,7 +65,7 @@ Check the current status (Total compression this month) of the given key
 + `-s` or `--status` Status of the api key
 + `-k` or `--key` API key
 
-
+Example:
 
     tiny-compressor-cli -v -k [API_KEY]
 
