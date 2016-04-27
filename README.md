@@ -52,6 +52,7 @@ Compress a single image or all images in a directory.
 + `-k` or `--key` API key
 
 
+
     tiny-compressor-cli -p [path/to/your/folder] -k [API_KEY]
 
 ####Status
@@ -59,6 +60,7 @@ Check the current status (Total compression this month) of the given key
 
 + `-s` or `--status` Status of the api key
 + `-k` or `--key` API key
+
 
 
     tiny-compressor-cli -v -k [API_KEY]
