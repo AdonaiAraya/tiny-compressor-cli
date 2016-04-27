@@ -1,33 +1,33 @@
 {
-  "name": "tiny-compressor-cli",
-  "description": "A command line JPG and PNG image compressor using https://tinypng.com compress API.",
-  "version": "0.2.1",
-  "keywords": [
-    "Image",
-    "JPG",
-    "JPEG",
-    "PNG",
-    "Compressor",
-    "Command line"
-  ],
-  "author": {
-    "name": "Adonai Araya Gutiérrez",
-    "email": "adoargu@gmail.com",
-    "url": "http://doblea.nom.es"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
+    "name": "tiny-compressor-cli",
+    "description": "A command line JPG and PNG image compressor using https://tinypng.com compress API.",
+    "version": "0.2.1",
+    "keywords": [
+        "Image",
+        "JPG",
+        "JPEG",
+        "PNG",
+        "Compressor",
+        "Command line"
+    ],
+    "author": {
+        "name": "Adonai Araya Gutiérrez",
+        "email": "adoargu@gmail.com",
+        "url": "http://doblea.nom.es"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "dependencies": {
+        "commander": "2.9.0",
+        "colors": "1.1.2",
+        "q": "1.4.1"
+    },
+    "preferGlobal": true,
+    "bin": {
+        "tinycompressor": "bin/tinycompressor.js"
     }
-  ],
-  "dependencies": {
-    "commander": "2.9.0",
-    "colors": "1.1.2",
-    "q": "1.4.1"
-  },
-  "preferGlobal": true,
-  "bin": {
-    "tinycompressor": "bin/tinycompressor.js"
-  }
 }
