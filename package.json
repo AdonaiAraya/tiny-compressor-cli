@@ -1,7 +1,7 @@
 {
     "name": "tiny-compressor-cli",
     "description": "A command line JPG and PNG image compressor using https://tinypng.com compress API.",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "keywords": ["Image", "JPG", "JPEG", "PNG", "Compressor", "Command line"],
     "author": {
         "name": "Adonai Araya Gutiérrez",
