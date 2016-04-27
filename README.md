@@ -38,7 +38,7 @@ Request help about the application.
 
 Example:
 
-    tiny-compressor-cli -h
+    tinycompressor -h
 
 ####Version
 
@@ -46,18 +46,18 @@ Current application version.
 
 Example:
 
-    tiny-compressor-cli -v
+    tinycompressor -v
 
 ####Compress
 
-Compress a single image or all images in a directory.
+Compress a single image or all images in a directory. This will create a folder name *compress* with all the compresed images.
 
 + `-p` or `--path` Path to the image or the directory
 + `-k` or `--key` API key
 
 Example:
 
-    tiny-compressor-cli -p [path/to/your/folder] -k [API_KEY]
+    tinycompressor -p [path/to/your/folder] -k [API_KEY]
 
 ####Status
 Check the current status (Total compression this month) of the given key
@@ -67,7 +67,7 @@ Check the current status (Total compression this month) of the given key
 
 Example:
 
-    tiny-compressor-cli -v -k [API_KEY]
+    tinycompressor -v -k [API_KEY]
 
 ##Related programs
 Not available yet
