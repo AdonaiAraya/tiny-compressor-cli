@@ -15,6 +15,10 @@
         "email": "adoargu@gmail.com",
         "url": "http://doblea.nom.es"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AdonaiAraya/tiny-compressor-cli.git"
+    },
     "licenses": [
         {
             "type": "MIT",
