@@ -1,7 +1,7 @@
 {
     "name": "tiny-compressor-cli",
     "description": "A command line JPG and PNG image compressor using https://tinypng.com compress API.",
-    "version": "0.2.1",
+    "version": "0.3.1",
     "keywords": [
         "Image",
         "JPG",
@@ -32,6 +32,6 @@
     },
     "preferGlobal": true,
     "bin": {
-        "tinycompressor": "bin/tinycompressor.js"
+        "tinycompressor": "bin/tinycompressor"
     }
 }
