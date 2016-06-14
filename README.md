@@ -48,26 +48,26 @@ Example:
 
     tinycompressor -v
 
+####Key
+
+Set the API key for later uses. This is mandatory to execute the other commands
+
+    tinycompressor key [apikey]
+
 ####Compress
 
-Compress a single image or all images in a directory. This will create a folder name *compress* with all the compresed images.
+Compress a single image or all images in a directory. This will create a folder name *compressed* with all the compresed images.
 
-+ `-p` or `--path` Path to the image or the directory
-+ `-k` or `--key` API key
+***Warning:*** You must set an API key before you can execute this command
 
-Example:
-
-    tinycompressor -p [path/to/your/folder] -k [API_KEY]
+    tinycompressor compress [path]
 
 ####Status
-Check the current status (Total compression this month) of the given key
+Check the current status (Total compression this month)
 
-+ `-s` or `--status` Status of the api key
-+ `-k` or `--key` API key
+***Warning:*** You must set an API key before you can execute this command
 
-Example:
-
-    tinycompressor -v -k [API_KEY]
+    tinycompressor status
 
 ##Related programs
 Not available yet
